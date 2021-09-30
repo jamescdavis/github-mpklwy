@@ -1,0 +1,9 @@
+{{#if this.isOpen}}
+  <p>{{this.something.value}}</p>
+{{/if}}
+
+<p>
+  <button type="button" {{on 'click' this.toggleIsOpen}}>Toggle isOpen</button>
+</p>
+
+<p>Run count: {{this.runCount}}</p>
